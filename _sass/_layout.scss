@@ -5,17 +5,24 @@ body {
 }
 
 .home {
-  max-width: 600px;
-  height: 300px;
+  max-width: 624px;
+  height: 308px;
   padding: 12% 0 0;
   margin: auto;
   text-align: center;
   text-transform: uppercase;
 }
 
+h1 {
+  font-size: 34pt;
+  letter-spacing: 4px;
+  text-shadow: 0px 0px 10px #fff;
+  margin: 0px 0px 10px 0px;
+}
+
 #charms {
-  max-width: 600px;
-  height: 200px;
+  max-width: 624px;
+  height: 208px;
 }
 
 #twitter {
@@ -40,24 +47,26 @@ body {
   float: left;
   width: 200px;
   height: 200px;
+  margin: 4px;
 
-  transition: box-shadow 0.2s ease;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   border-radius: 50px;
-
-  transition: background-color 0.3s ease;
-  background-color: rgba(0, 0, 0, 0);
+  
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -kthtml-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 .charm:hover {
-  transition: box-shadow 0.5s ease;
   -webkit-box-shadow: 0px 0px 30px 0px #fff;
   -moz-box-shadow: 0px 0px 30px 0px #fff;
   box-shadow: 0px 0px 30px 0px #fff;
 
-  transition: background-color 0.3s ease;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .charm a {
