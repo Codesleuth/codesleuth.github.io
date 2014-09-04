@@ -1,0 +1,67 @@
+body {
+  background-color: $background-color;
+  font-family: $base-font-family;
+  color: white;
+}
+
+.home {
+  max-width: 600px;
+  height: 300px;
+  padding: 12% 0 0;
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#charms {
+  max-width: 600px;
+  height: 200px;
+}
+
+#twitter {
+  background-image: url(/images/Twitter_logo_white_120px.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#github {
+  background-image: url(/images/GitHub-Mark-Light-120px-plus.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#stackoverflow {
+  background-image: url(/images/Stackoverflow-logo-white.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.charm {
+  float: left;
+  width: 200px;
+  height: 200px;
+
+  transition: box-shadow 0.2s ease;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+
+  transition: background-color 0.3s ease;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.charm:hover {
+  transition: box-shadow 0.5s ease;
+  -webkit-box-shadow: 0px 0px 30px 0px #fff;
+  -moz-box-shadow: 0px 0px 30px 0px #fff;
+  box-shadow: 0px 0px 30px 0px #fff;
+
+  transition: background-color 0.3s ease;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.charm a {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+}
