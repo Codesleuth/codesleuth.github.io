@@ -1,10 +1,11 @@
 # Site settings
 title: Codesleuth
-email: your-email@domain.com
+email: david.p.wood@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Developer from England, writing C# .NET by day and Node.js by night
 baseurl: ""
 url: "http://www.codesleuth.co.uk"
+blog_url: "https://medium.com/@Codesleuth"
 twitter_username: codesleuth
 github_username: codesleuth
 stackoverflow_userid: 209668
