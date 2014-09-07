@@ -1,16 +1,13 @@
 #page {
   position: absolute;
-  top: 50%;
-  margin-top: -161px;
+  top: 10%;
   left: 0;
   width: 100%;
 }
 
 #content {
-  max-width: 624px;
   margin-left: auto;
   margin-right: auto;
-  height: 322px;
 
   text-align: center;
   text-transform: uppercase;
@@ -21,11 +18,6 @@ h1 {
   letter-spacing: 20px;
   text-shadow: 0px 0px 10px #fff;
   margin: 0px 0px 10px 0px;
-}
-
-#charms {
-  max-width: 624px;
-  height: 208px;
 }
 
 #twitter {
@@ -62,7 +54,7 @@ h1 {
 }
 
 .charm {
-  float: left;
+  display: inline-block;
   width: 200px;
   height: 200px;
   margin: 4px;
