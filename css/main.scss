@@ -1,48 +1,45 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# This is the main SASS file.
 ---
 @charset "utf-8";
 
-
-
-// Our variables
 $base-font-family: 'Orbitron', sans-serif;
-$base-font-size:   16px;
+$base-font-size:   16pt;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$large-font-size:  $base-font-size * 1.25;
+$base-line-height: 1.0;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
+$text-color:       #fff;
 $background-color: #266E7C;
-$brand-color:      #2a7ae2;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
 
 $on-palm:          600px;
 $on-laptop:        800px;
 
+$images-base-url:  "/images";
 
 
-// Using media queries with like this:
-// @include media-query($palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
     }
 }
 
+@mixin vendor-prefix($name, $argument) {
+  -webkit-#{$name}: #{$argument};
+  -ms-#{$name}: #{$argument};
+  -moz-#{$name}: #{$argument};
+  -o-#{$name}: #{$argument};
+  #{$name}: #{$argument};
+}
 
+@mixin vendor-prefix-custom($name, $arg1, $arg2) {
+  -webkit-#{$name}: #{$arg1}, -webkit-#{$arg2};
+  -ms-#{$name}: #{$arg1}, -ms-#{$arg2};
+  -moz-#{$name}: #{$arg1}, -moz-#{$arg2};
+  -o-#{$name}: #{$arg1}, -o-#{$arg2};
+  #{$name}: #{$arg1}, #{$arg2};
+}
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout"
-;
+@import "base","layout";

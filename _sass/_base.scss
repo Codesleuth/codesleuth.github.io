@@ -1,5 +1,7 @@
 body {
   background-color: $background-color;
   font-family: $base-font-family;
-  color: white;
+  font-size: $base-font-size;
+  color: $text-color;
+  line-height: $base-line-height;
 }

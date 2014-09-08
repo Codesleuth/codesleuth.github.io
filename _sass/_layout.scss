@@ -11,64 +11,65 @@
 
   text-align: center;
   text-transform: uppercase;
+
+  @include media-query ($on-palm) {
+    margin: 0;
+  }
 }
 
 h1 {
-  font-size: 34pt;
   letter-spacing: 20px;
   text-shadow: 0px 0px 10px #fff;
-  margin: 0px 0px 10px 0px;
+  margin: 0px 0px 20px 0px;
+
+  @include media-query ($on-palm) {
+    font-size: 95%;
+  }
 }
 
 #twitter {
-  background-image: url(/images/Twitter_logo_white_120px.png);
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: url(#{$images-base-url}/Twitter_logo_white_120px.png);
 }
 
 #github {
-  background-image: url(/images/GitHub-Mark-Light-120px-plus.png);
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: url(#{$images-base-url}/GitHub-Mark-Light-120px-plus.png);
 }
 
 #stackoverflow {
-  background-image: url(/images/Stackoverflow-logo-white.png);
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: url(#{$images-base-url}/Stackoverflow-logo-white.png);
 }
 
 .charm a {
   display: inline-block;
-  width: 200px;
-  height: 200px;
+  width: 100%;
+  height: 100%;
   text-decoration: none;
 }
 
 .charm:hover {
-  -webkit-box-shadow: 0px 0px 30px 0px #fff;
-  -moz-box-shadow: 0px 0px 30px 0px #fff;
-  box-shadow: 0px 0px 30px 0px #fff;
-
+  @include vendor-prefix(box-shadow, 0px 0px 30px 0px #fff);
   background-color: rgba(255, 255, 255, 0.1);
 }
 
 .charm {
+  background-repeat: no-repeat;
+  background-position: center;
+
   display: inline-block;
   width: 200px;
   height: 200px;
   margin: 4px;
 
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  border-radius: 50px;
-  
-  -webkit-transition: all 0.3s linear;
-  -o-transition: all 0.3s linear;
-  -moz-transition: all 0.3s linear;
-  -ms-transition: all 0.3s linear;
-  -kthtml-transition: all 0.3s linear;
-  transition: all 0.3s linear;
+  @include media-query ($on-palm) {
+    width: 150px;
+    height: 150px;
+  }
+
+  @include vendor-prefix(border-radius, 50px);
+  @include vendor-prefix-custom(transition-property, background-color, box-shadow);
+
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
 }
 
 h2 a:hover {
@@ -78,5 +79,13 @@ h2 a:hover {
 h2 a {
   text-decoration: none;
   color: white;
-  transition: all 0.3s linear;
+
+  @include vendor-prefix(transition-property, text-shadow);
+
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+
+#links {
+  margin-top: 40px;
 }
