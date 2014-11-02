@@ -71,7 +71,7 @@ Now that you have everything set up, it's a good idea to have a think about what
 Continuous Integration and Delivery are the responsibility of everybody in your team. Anybody should be able to integrate their changes to **master** or **trunk**, push the change, and watch it build and deploy. How can you ensure you have the confidence to allow this? What coverage are you missing?
 
 ## In Practice
-Not all code changes are ready for release. You may have to verify the change can withstand extreme load, or ensure it meets a visual comparison check; it's likely you'll need to insert an extra step somewhere to handle this situations. However, for those lucky enough to be able to gain confidence with automated tests, you can start to practice CI and CD immediately, so have a look where you can use it and take the first step!
+Not all code changes are ready for release. You may have to verify the change can withstand extreme load, or ensure it meets a visual comparison check; it's likely you'll need to insert an extra step somewhere to handle these situations. However, for those lucky enough to be able to gain confidence with automated tests, you can start to practice CI and CD immediately, so have a look where you can use it and take the first step!
 
 ## References and Further Reading
 
@@ -83,4 +83,4 @@ Not all code changes are ready for release. You may have to verify the change ca
 > Written with [StackEdit](https://stackedit.io/).
 
 *[CI]: Continuous Integration
-*[CD]: Continuous Delivery"
+*[CD]: Continuous Delivery
