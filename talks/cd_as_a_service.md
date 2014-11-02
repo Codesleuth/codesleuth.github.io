@@ -53,7 +53,7 @@ The following services offer free accounts and should help you get started right
 At this point you should have a public repository, code, tests, and a service to build it. Now all you need to do is start a build and watch it go! So, make a change to your code (perhaps add another test?) then push the changes. Does it build?
 
 ### 5. Choose a deployment location
-Now that you have a clean build and all the tests pass, let's get it deployed so we can get user feedback as soon as possible? Deploy your application manually to get it set up!
+Now that you have a clean build and all the tests pass, let's get it deployed so we can get user feedback as soon as possible. Deploy your application manually to get it set up to a hosting provider.
 Choose a host for your project; here's a list of some you may like to try:
 
 * [Heroku](https://www.heroku.com "Heroku")
