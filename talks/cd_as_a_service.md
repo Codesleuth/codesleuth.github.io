@@ -20,36 +20,42 @@ Using **Continuous Delivery**, your team can empower the delivery pipeline to au
 {:toc}
 
 ## The Task
-Imagine you are an aspiring startup company with a great idea. You decide that using Continuous Integration and Continuous Delivery will help the project save time by building, maintaining and delivering the project more frequently. Great! Let's get started!
+Imagine you are an aspiring startup company with a great idea. You decide that using Continuous Integration and Continuous Delivery will help the company save time by building, maintaining and delivering the project more frequently. Great! Let's get started!
 
 ### 1. Create a project
-Start a new project that does *anything* you like, such as a "Hello World" web app, a tool which prints out [lorem ipsum](http://slipsum.com "Samuel L. Ipsum"), a [Jekyll blog site](https://pages.github.com "GitHub pages with Jekyll"), or a service to send a reminder of your partner's upcoming Birthday [via SMS](http://developers.esendex.com/APIs/REST-API/messagedispatcher "Esendex Message Dispatcher") (super useful); it doesn't matter, but it **must have tests** at this stage to demonstrate the use of Continuous Integration. You don't need to make it fancy - `Assert.Pass()` is fine for now!
+Start a new project that does *anything* you like, such as a "Hello World" web app, a tool which prints out [lorem ipsum](http://slipsum.com "Samuel L. Ipsum"), a [Jekyll blog site](https://pages.github.com "GitHub pages with Jekyll"), or a service to send a reminder of your partner's upcoming Birthday [via SMS](http://developers.esendex.com/APIs/REST-API/messagedispatcher "Esendex Message Dispatcher") (super useful). It doesn't matter what it does, but it **must have tests** at this stage to demonstrate the use of Continuous Integration. You don't need to make it fancy - `Assert.Pass()` is fine for now!
 See below for example test frameworks for different languages and platforms:
 
-* Java: [JUnit](http://junit.org "JUnit")
 * .NET: [NUnit](http://www.nunit.org "NUnit")
+* Java: [JUnit](http://junit.org "JUnit")
 * Node.js: [Mocha](http://mochajs.org "Mocha")
 * Ruby: [RSpec](https://github.com/rspec/rspec-core "RSpec Core @ GitHub")
 * Python: [unittest](https://docs.python.org/2/library/unittest.html "unittest, The Python Standard Library")
 * Go: [testing package](http://golang.org/pkg/testing/ "The Go testing standard package")
 * Haskell: [HSpec](http://hspec.github.io/ "HSpec")
+* PHP: [PHPUnit](https://phpunit.de/ "PHPUnit")
 
 ### 2. Push to a repository
 Set up a place for the code to live. Some of the most popular choices are **[GitHub](https://github.com)**  or **[BitBucket](https://bitbucket.org)**. It's better to leave the code *public* for now, since most services will offer free builds if the repository is open source.
 Push your source code so it's available, and get ready to begin continuously integrating!
 
+```bash
+$ git add -A
+$ git commit -m 'First commit!'
+```
+
 ### 3. Set up continuous integration
 If you don't already have an account on a CI service, go create one! Set up your project to build using the service, and ideally set it up to build upon every code change. You may need to make sure your choice of service can support the language you have used for your project.
 The following services offer free accounts and should help you get started right away:
 
+* [AppVeryor](http://www.appveyor.com "AppVeyor") (allows .NET)
+* [Microsoft Azure](http://azure.microsoft.com "Azure") (allows .NET)
+* [Visual Studio Online](http://www.visualstudio.com/en-us/get-started/connect-to-vs.aspx "Visual Studio Online") (allows .NET)
 * [Codeship](https://codeship.io "Codeship")
 * [Travis-CI](https://travis-ci.org "Travis-CI")
-* [AppVeryor](http://www.appveyor.com "AppVeyor") (allows .NET)
 * [Semaphore](https://semaphoreapp.com "Semaphore")
 * [Buildbox](https://buildbox.io "Buildbox")
 * [CircleCI](https://circleci.com "CircleCI")
-* [Microsoft Azure](http://azure.microsoft.com "Azure") (allows .NET)
-* [Visual Studio Online](http://www.visualstudio.com/en-us/get-started/connect-to-vs.aspx "Visual Studio Online") (allows .NET)
 
 ### 4. Push a code change, watch it build
 At this point you should have a public repository, code, tests, and a service to build it. Now all you need to do is start a build and watch it go! So, make a change to your code (perhaps add another test?) then push the changes. Does it build?
@@ -58,9 +64,10 @@ At this point you should have a public repository, code, tests, and a service to
 Now that you have a clean build and all the tests pass, let's get it deployed so we can get user feedback as soon as possible. Deploy your application manually to get it set up to a hosting provider.
 Choose a host for your project; here's a list of some you may like to try:
 
+* [Azure Websites](http://azure.microsoft.com/en-us/services/websites/ "Azure Websites and Apps")
+* [AWS Elastic Beanstalk](http://aws.amazon.com/elasticbeanstalk "AWS Elastic Beanstalk")
 * [Heroku](https://www.heroku.com "Heroku")
 * [OpenShift](https://www.openshift.com "OpenShift by Red Hat")
-* [Azure Websites](http://azure.microsoft.com/en-us/services/websites/ "Azure Websites and Apps")
 * [Google Cloud](https://cloud.google.com "Google Cloud")
 * [nodejitsu](https://www.nodejitsu.com "nodejitsu Node.js hosting")
 
@@ -77,10 +84,11 @@ Not all code changes are ready for release. You may have to verify the change ca
 
 ## References and Further Reading
 
+* Jez Humble: [Continuous Delivery](http://continuousdelivery.com/)
+* Jez Humble and David Farley (2010) *[Continuous Delivery](http://www.amazon.co.uk/dp/0321601912), Addison Wesley*
 * ThoughtWorks: [Continuous Integration](http://www.thoughtworks.com/continuous-integration) and [Continuous Delivery](http://www.thoughtworks.com/continuous-delivery)
 * Wikipedia: [Continuous Integration](http://www.thoughtworks.com/continuous-delivery) and [Continuous Delivery](http://en.wikipedia.org/wiki/Continuous_delivery)
 * Martin Fowler: [Continuous Integration](http://www.martinfowler.com/articles/continuousIntegration.html) and [Continuous Delivery](http://martinfowler.com/bliki/ContinuousDelivery.html)
-* Jez Humble: [Continuous Delivery](http://continuousdelivery.com/)
 
 > Written with [StackEdit](https://stackedit.io/).
 
