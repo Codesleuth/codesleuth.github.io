@@ -42,6 +42,7 @@ Push your source code so it's available, and get ready to begin continuously int
 ```bash
 $ git add -A
 $ git commit -m 'First commit!'
+$ git push origin master
 ```
 
 ### 3. Set up continuous integration
