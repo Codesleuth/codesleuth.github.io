@@ -1,15 +1,17 @@
 ---
-layout:     stackedit
-title:      Continuous Delivery as a Service
-date:       2014-11-03
-permalink:  /talks/2014/11/Continuous-Delivery-as-a-Service.html
+layout: stackedit
+title: Continuous Delivery as a Service
+date: 2014-11-03
+permalink: /talks/Continuous-Delivery-as-a-Service.html
+redirect_from:
+  - /talks/2014/11/Continuous-Delivery-as-a-Service.html
 ---
 
 # Continuous Delivery as a Service
 {:.no_toc}
-*[A talk from Tech Nottingham, 3rd November 2014](http://www.technottingham.com/events/2014/11/03/tech-nottingham-november-2014-continuous-delivery-as-a-service "Continuous Delivery as a Service")*
+*Presented at [Tech Nottingham, 3rd November 2014](http://www.technottingham.com/events/2014/11/03/tech-nottingham-november-2014-continuous-delivery-as-a-service "Continuous Delivery as a Service") and [DotNetSheff, 2nd June 2015](https://dotnetsheff.co.uk/)*
 
-**Continuous Integration** helps teams deliver higher quality code and give them more confidence in features and changes to code, freeing it up to be deployed as soon as possible.
+**Continuous Integration** helps teams deliver higher quality code and give them more confidence in features and changes, allowing them to deploy more often and with less surprises.
 Using **Continuous Delivery**, your team can empower the delivery pipeline to automatically deploy a successful build, in order to gain valuable user feedback sooner.
 
 ## Table of Contents
