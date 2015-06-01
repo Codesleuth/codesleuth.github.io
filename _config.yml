@@ -13,3 +13,7 @@ stackoverflow_username: codesleuth
 
 # Build settings
 markdown: kramdown
+
+# Enabled Gems
+gems:
+- jekyll-redirect-from
