@@ -1,7 +1,7 @@
 ---
 layout: stackedit
 title: CQRS – but different
-date: 2015-06-15 13:40
+date: 2015-06-17 13:40
 permalink: /notes/ndcoslo2015/CQRS-but-different.html
 ndcoslo2015: true
 ---
@@ -11,7 +11,7 @@ ndcoslo2015: true
 ## CQRS – but different
 *by Udi Dahan*
 
-**2015-06-15 13:40** (https://vimeo.com/131199089)
+**2015-06-17 13:40** (https://vimeo.com/131199089)
 
 #### Background
 * Why do they need it?

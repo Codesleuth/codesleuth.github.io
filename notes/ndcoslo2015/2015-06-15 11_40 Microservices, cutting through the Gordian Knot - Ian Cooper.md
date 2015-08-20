@@ -1,7 +1,7 @@
 ---
 layout: stackedit
 title: Microservices, cutting through the Gordian Knot
-date: 2015-06-15 11:40
+date: 2015-06-17 11:40
 permalink: /notes/ndcoslo2015/Microservices-cutting-through-the-Gordian-Knot.html
 ndcoslo2015: true
 ---
@@ -11,7 +11,7 @@ ndcoslo2015: true
 ## Microservices, cutting through the Gordian Knot
 *by Ian Cooper*
 
-**2015-06-15 11:40** (https://vimeo.com/132194544)
+**2015-06-17 11:40** (https://vimeo.com/132194544)
 
 * Lone Dev
 	* Main + subroutines

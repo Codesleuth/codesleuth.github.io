@@ -1,7 +1,7 @@
 ---
 layout: stackedit
 title: Type-Driven Development
-date: 2015-06-15 17:40
+date: 2015-06-17 17:40
 permalink: /notes/ndcoslo2015/Type-Driven-Development.html
 ndcoslo2015: true
 ---
@@ -11,4 +11,4 @@ ndcoslo2015: true
 ## Type-Driven Development
 *by Mark Seemann*
 
-**2015-06-15 16:20** (https://vimeo.com/131631483)
+**2015-06-17 17:40** (https://vimeo.com/131631483)

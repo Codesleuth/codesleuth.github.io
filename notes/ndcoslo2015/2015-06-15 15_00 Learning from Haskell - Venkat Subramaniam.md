@@ -1,7 +1,7 @@
 ---
 layout: stackedit
 title: Learning from Haskell
-date: 2015-06-15 15:00
+date: 2015-06-17 15:00
 permalink: /notes/ndcoslo2015/Learning-from-Haskell.html
 ndcoslo2015: true
 ---
@@ -11,7 +11,7 @@ ndcoslo2015: true
 ## Learning from Haskell
 *by Venkat Subramaniam*
 
-**2015-06-15 15:00** (https://vimeo.com/131409651)
+**2015-06-17 15:00** (https://vimeo.com/131409651)
 
 * Polyglot developers are more adventurous
 	* Know different, therefore think different

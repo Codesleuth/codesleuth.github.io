@@ -1,7 +1,7 @@
 ---
 layout: stackedit
 title: Its all messages now; where are my absractions
-date: 2015-06-16 15:00
+date: 2015-06-18 15:00
 permalink: /notes/ndcoslo2015/Its-all-messages-now;-where-are-my-absractions.html
 ndcoslo2015: true
 ---
@@ -11,4 +11,4 @@ ndcoslo2015: true
 ## Its all messages now; where are my absractions
 *by Matt Barrett*
 
-**2015-06-16 15:00** (https://vimeo.com/131636652)
+**2015-06-18 15:00** (https://vimeo.com/131636652)

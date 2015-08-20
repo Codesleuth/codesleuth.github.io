@@ -1,7 +1,7 @@
 ---
 layout: stackedit
 title: Duplicating data or replicating data in Micro Services
-date: 2015-06-15 10:20
+date: 2015-06-17 10:20
 permalink: /notes/ndcoslo2015/Duplicating-data-or-replicating-data-in-Micro-Services.html
 ndcoslo2015: true
 ---
@@ -11,7 +11,7 @@ ndcoslo2015: true
 ## Duplicating data or replicating data in Micro Services
 *by Dennis van der Stelt*
 
-**2015-06-15 10:20** (video not posted yet)
+**2015-06-17 10:20** (video not posted yet)
 
 * Agenda
 	* Monolithic vs Microservices
