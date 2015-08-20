@@ -4,12 +4,13 @@ title: CQRS – but different
 date: 2015-06-17 13:40
 permalink: /notes/ndcoslo2015/CQRS-but-different.html
 ndcoslo2015: true
+speaker: Udi Dahan
 ---
 
 # NDC Oslo 2015
 
 ## CQRS – but different
-*by Udi Dahan*
+*by {{ page.speaker }}*
 
 **{{ page.date | date: '%A, %B %Y %H:%M' }}**
 

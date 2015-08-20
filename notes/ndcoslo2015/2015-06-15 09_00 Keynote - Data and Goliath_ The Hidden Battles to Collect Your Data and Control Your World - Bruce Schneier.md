@@ -4,12 +4,14 @@ title: "Data and Goliath: The Hidden Battles to Collect Your Data and Control Yo
 date: 2015-06-17 09:00
 permalink: /notes/ndcoslo2015/Keynote-Data-and-Goliath-The-Hidden-Battles-to-Collect-Your-Data-and-Control-Your-World.html
 ndcoslo2015: true
+speaker: 
+    name: Bruce Schneier
 ---
 
 # NDC Oslo 2015
 
 ## Keynote - Data and Goliath: The Hidden Battles to Collect Your Data and Control Your World
-*by Bruce Schneier*
+*by {{ page.speaker.name }}*
 
 **{{ page.date | date: '%A, %B %Y %H:%M' }}**
 

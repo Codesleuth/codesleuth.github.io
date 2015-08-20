@@ -9,7 +9,7 @@ ndcoslo2015: true
 # NDC Oslo 2015
 
 ## The rest of ReST
-*by Dylan Beattie*
+*by {{ page.speaker }}Dylan Beattie*
 
 **{{ page.date | date: '%A, %B %Y %H:%M' }}**
 

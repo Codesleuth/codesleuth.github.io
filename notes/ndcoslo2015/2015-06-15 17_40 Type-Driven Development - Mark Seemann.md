@@ -9,7 +9,7 @@ ndcoslo2015: true
 # NDC Oslo 2015
 
 ## Type-Driven Development
-*by Mark Seemann*
+*by {{ page.speaker }}Mark Seemann*
 
 **{{ page.date | date: '%A, %B %Y %H:%M' }}**
 

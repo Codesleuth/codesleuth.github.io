@@ -9,7 +9,7 @@ ndcoslo2015: true
 # NDC Oslo 2015
 
 ## Learning from Haskell
-*by Venkat Subramaniam*
+*by {{ page.speaker }}Venkat Subramaniam*
 
 **{{ page.date | date: '%A, %B %Y %H:%M' }}**
 

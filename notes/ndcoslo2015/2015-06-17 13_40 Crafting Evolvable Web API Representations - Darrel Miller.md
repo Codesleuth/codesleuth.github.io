@@ -9,7 +9,7 @@ ndcoslo2015: true
 # NDC Oslo 2015
 
 ## Crafting Evolvable Web API Representations
-*by Darrel Miller*
+*by {{ page.speaker }}Darrel Miller*
 
 **{{ page.date | date: '%A, %B %Y %H:%M' }}**
 

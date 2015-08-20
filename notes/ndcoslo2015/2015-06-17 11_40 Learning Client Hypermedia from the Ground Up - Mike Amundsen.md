@@ -9,7 +9,7 @@ ndcoslo2015: true
 # NDC Oslo 2015
 
 ## Learning Client Hypermedia from the Ground Up
-*by Mike Amundsen*
+*by {{ page.speaker }}Mike Amundsen*
 
 **{{ page.date | date: '%A, %B %Y %H:%M' }}**
 
