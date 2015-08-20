@@ -13,7 +13,7 @@ speaker:
 ## Duplicating data or replicating data in Micro Services
 *by {{ page.speaker.name }}*
 
-**{{ page.date | date: '%A, %B %Y %H:%M' }}**
+**{{ page.date | date: '%A, %e %B, %Y %H:%M' }}**
 
 * Agenda
 	* Monolithic vs Microservices

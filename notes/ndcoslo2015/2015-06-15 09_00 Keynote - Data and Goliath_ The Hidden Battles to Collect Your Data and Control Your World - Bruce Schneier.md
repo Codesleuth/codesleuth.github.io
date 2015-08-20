@@ -12,7 +12,7 @@ speaker: Bruce Schneier
 ## Keynote - Data and Goliath: The Hidden Battles to Collect Your Data and Control Your World
 *by {{ page.speaker }}*
 
-**{{ page.date | date: '%A, %B %Y %H:%M' }}**
+**{{ page.date | date: '%A, %e %B, %Y %H:%M' }}**
 
 {% include vimeo.html id="131115865" %}
 

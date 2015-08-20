@@ -11,6 +11,6 @@ ndcoslo2015: true
 ## What business software developers can learn from game developers
 *by Adam Beres-Deak*
 
-**{{ page.date | date: '%A, %B %Y %H:%M' }}**
+**{{ page.date | date: '%A, %e %B, %Y %H:%M' }}**
 
 {% include vimeo.html id="131634705" %}

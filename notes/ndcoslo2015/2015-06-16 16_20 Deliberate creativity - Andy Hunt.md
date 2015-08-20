@@ -11,6 +11,6 @@ ndcoslo2015: true
 ## Deliberate creativity
 *by Andy Hunt*
 
-**{{ page.date | date: '%A, %B %Y %H:%M' }}**
+**{{ page.date | date: '%A, %e %B, %Y %H:%M' }}**
 
 {% include vimeo.html id="132814070" %}

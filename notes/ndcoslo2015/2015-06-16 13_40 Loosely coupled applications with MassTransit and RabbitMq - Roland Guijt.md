@@ -11,6 +11,6 @@ ndcoslo2015: true
 ## Loosely coupled applications with MassTransit and RabbitMq
 *by Roland Guijt*
 
-**{{ page.date | date: '%A, %B %Y %H:%M' }}**
+**{{ page.date | date: '%A, %e %B, %Y %H:%M' }}**
 
 {% include vimeo.html id="131635506" %}

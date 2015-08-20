@@ -11,6 +11,6 @@ ndcoslo2015: true
 ## Type-Driven Development
 *by Mark Seemann*
 
-**{{ page.date | date: '%A, %B %Y %H:%M' }}**
+**{{ page.date | date: '%A, %e %B, %Y %H:%M' }}**
 
 {% include vimeo.html id="131631483" %}

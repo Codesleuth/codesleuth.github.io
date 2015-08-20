@@ -11,6 +11,6 @@ ndcoslo2015: true
 ## Cloud-Scale Event Processing with the Reactive Extensions (Rx)
 *by Bart De Smet*
 
-**{{ page.date | date: '%A, %B %Y %H:%M' }}**
+**{{ page.date | date: '%A, %e %B, %Y %H:%M' }}**
 
 {% include vimeo.html id="132192255" %}

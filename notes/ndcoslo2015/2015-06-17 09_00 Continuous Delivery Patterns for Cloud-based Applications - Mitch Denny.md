@@ -11,6 +11,6 @@ ndcoslo2015: true
 ## Continuous Delivery Patterns for Cloud-based Applications
 *by Mitch Denny*
 
-**{{ page.date | date: '%A, %B %Y %H:%M' }}**
+**{{ page.date | date: '%A, %e %B, %Y %H:%M' }}**
 
 {% include vimeo.html id="131640713" %}

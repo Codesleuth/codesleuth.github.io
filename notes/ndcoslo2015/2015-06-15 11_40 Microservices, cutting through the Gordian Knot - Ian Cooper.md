@@ -13,7 +13,7 @@ speaker:
 ## Microservices, cutting through the Gordian Knot
 *by {{ page.speaker.name }}*
 
-**{{ page.date | date: '%A, %B %Y %H:%M' }}**
+**{{ page.date | date: '%A, %e %B, %Y %H:%M' }}**
 
 {% include vimeo.html id="132194544" %}
 

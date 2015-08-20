@@ -12,7 +12,7 @@ speaker: Udi Dahan
 ## CQRS – but different
 *by {{ page.speaker }}*
 
-**{{ page.date | date: '%A, %B %Y %H:%M' }}**
+**{{ page.date | date: '%A, %e %B, %Y %H:%M' }}**
 
 {% include vimeo.html id="131199089" %}
 
