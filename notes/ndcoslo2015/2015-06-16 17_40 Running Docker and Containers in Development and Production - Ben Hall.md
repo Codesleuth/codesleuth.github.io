@@ -7,6 +7,7 @@ ndcoslo2015: true
 ---
 
 # NDC Oslo 2015
+
 ## Running Docker and Containers in Development and Production
 *by Ben Hall*
 

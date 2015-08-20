@@ -7,6 +7,7 @@ ndcoslo2015: true
 ---
 
 # NDC Oslo 2015
+
 ## Crafting Evolvable Web API Representations
 *by Darrel Miller*
 

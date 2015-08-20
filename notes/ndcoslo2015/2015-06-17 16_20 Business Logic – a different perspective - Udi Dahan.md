@@ -7,6 +7,7 @@ ndcoslo2015: true
 ---
 
 # NDC Oslo 2015
+
 ## Business Logic – a different perspective
 *by Udi Dahan*
 

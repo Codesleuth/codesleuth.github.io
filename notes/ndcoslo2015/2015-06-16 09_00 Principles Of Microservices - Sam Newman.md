@@ -7,6 +7,7 @@ ndcoslo2015: true
 ---
 
 # NDC Oslo 2015
+
 ## Principles Of Microservices
 *by Sam Newman*
 

@@ -7,6 +7,7 @@ ndcoslo2015: true
 ---
 
 # NDC Oslo 2015
+
 ## Continuous Delivery Patterns for Cloud-based Applications
 *by Mitch Denny*
 

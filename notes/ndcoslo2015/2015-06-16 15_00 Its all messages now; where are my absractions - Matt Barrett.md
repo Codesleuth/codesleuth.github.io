@@ -7,6 +7,7 @@ ndcoslo2015: true
 ---
 
 # NDC Oslo 2015
+
 ## Its all messages now; where are my absractions
 *by Matt Barrett*
 

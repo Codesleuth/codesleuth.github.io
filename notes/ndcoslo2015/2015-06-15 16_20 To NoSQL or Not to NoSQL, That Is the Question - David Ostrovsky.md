@@ -7,6 +7,7 @@ ndcoslo2015: true
 ---
 
 # NDC Oslo 2015
+
 ## To NoSQL or Not to NoSQL, That Is the Question
 *by David Ostrovsky*
 

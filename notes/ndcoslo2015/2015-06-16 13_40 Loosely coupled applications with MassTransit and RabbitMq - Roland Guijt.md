@@ -7,6 +7,7 @@ ndcoslo2015: true
 ---
 
 # NDC Oslo 2015
+
 ## Loosely coupled applications with MassTransit and RabbitMq
 *by Roland Guijt*
 

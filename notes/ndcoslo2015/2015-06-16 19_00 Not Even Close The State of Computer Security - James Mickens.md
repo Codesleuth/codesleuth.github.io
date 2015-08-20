@@ -7,6 +7,7 @@ ndcoslo2015: true
 ---
 
 # NDC Oslo 2015
+
 ## Not Even Close: The State of Computer Security
 *by James Mickens*
 

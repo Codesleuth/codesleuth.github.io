@@ -6,16 +6,11 @@ permalink: /notes/index.html
 
 <h1>Wednesday</h1>
 <ul>
-{% for page in site.pages %}
-{% if page.ndcoslo2015 == true %}
-{% assign dayofweek = page.date | date: '%w' %}
-{% if dayofweek == '3' %}
+{% for page in site.pages %}{% if page.ndcoslo2015 == true %}{% assign dayofweek = page.date | date: '%w' %}{% if dayofweek == '3' %}
 <li>
   <a href="{{ page.url }}">{{ page.title }}</a>
 </li>
-{% endif %}
-{% endif %}
-{% endfor %}
+{% endif %}{% endif %}{% endfor %}
 </ul>
 
 <h1>Thursday</h1>

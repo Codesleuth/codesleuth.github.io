@@ -7,6 +7,7 @@ ndcoslo2015: true
 ---
 
 # NDC Oslo 2015
+
 ## Duplicating data or replicating data in Micro Services
 *by Dennis van der Stelt*
 

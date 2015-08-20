@@ -7,6 +7,7 @@ ndcoslo2015: true
 ---
 
 # NDC Oslo 2015
+
 ## Keynote - Data and Goliath: The Hidden Battles to Collect Your Data and Control Your World
 *by Bruce Schneier*
 

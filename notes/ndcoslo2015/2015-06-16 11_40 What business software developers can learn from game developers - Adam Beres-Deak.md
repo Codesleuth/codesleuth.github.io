@@ -7,6 +7,7 @@ ndcoslo2015: true
 ---
 
 # NDC Oslo 2015
+
 ## What business software developers can learn from game developers
 *by Adam Beres-Deak*
 
