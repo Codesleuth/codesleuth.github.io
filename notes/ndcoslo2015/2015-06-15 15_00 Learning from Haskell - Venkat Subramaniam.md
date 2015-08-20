@@ -3,6 +3,7 @@ layout: stackedit
 title: Learning from Haskell
 date: 2015-06-15 15:00
 permalink: /notes/ndcoslo2015/Learning-from-Haskell.html
+ndcoslo2015: true
 ---
 
 # NDC Oslo 2015

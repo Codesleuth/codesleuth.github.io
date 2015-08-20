@@ -3,6 +3,7 @@ layout: stackedit
 title: Principles Of Microservices
 date: 2015-06-16 09:00
 permalink: /notes/ndcoslo2015/Principles-Of-Microservices.html
+ndcoslo2015: true
 ---
 
 # NDC Oslo 2015

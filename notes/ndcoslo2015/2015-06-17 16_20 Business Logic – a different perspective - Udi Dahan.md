@@ -3,6 +3,7 @@ layout: stackedit
 title: Business Logic – a different perspective
 date: 2015-06-17 16:20
 permalink: /notes/ndcoslo2015/Business-Logic-–-a-different-perspective.html
+ndcoslo2015: true
 ---
 
 # NDC Oslo 2015

@@ -3,6 +3,7 @@ layout: stackedit
 title: Microservices, cutting through the Gordian Knot
 date: 2015-06-15 11:40
 permalink: /notes/ndcoslo2015/Microservices-cutting-through-the-Gordian-Knot.html
+ndcoslo2015: true
 ---
 
 # NDC Oslo 2015

@@ -3,6 +3,7 @@ layout: stackedit
 title: Duplicating data or replicating data in Micro Services
 date: 2015-06-15 10:20
 permalink: /notes/ndcoslo2015/Duplicating-data-or-replicating-data-in-Micro-Services.html
+ndcoslo2015: true
 ---
 
 # NDC Oslo 2015
