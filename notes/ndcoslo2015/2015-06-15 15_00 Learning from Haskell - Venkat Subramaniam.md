@@ -11,7 +11,7 @@ ndcoslo2015: true
 ## Learning from Haskell
 *by Venkat Subramaniam*
 
-**{{ page.date | date '%A, %B %Y %H:%M' }}**
+**{{ page.date | date: '%A, %B %Y %H:%M' }}**
 
 {% include vimeo.html id="131409651" %}
 
