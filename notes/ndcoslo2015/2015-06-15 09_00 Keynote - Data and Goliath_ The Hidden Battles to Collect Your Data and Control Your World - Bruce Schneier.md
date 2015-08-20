@@ -11,7 +11,7 @@ speaker:
 # NDC Oslo 2015
 
 ## Keynote - Data and Goliath: The Hidden Battles to Collect Your Data and Control Your World
-*by {{ page.speaker.name }}*
+*by {{ page.speaker['name'] }}*
 
 **{{ page.date | date: '%A, %B %Y %H:%M' }}**
 
