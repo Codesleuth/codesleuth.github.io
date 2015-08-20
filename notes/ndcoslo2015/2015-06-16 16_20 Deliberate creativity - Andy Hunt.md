@@ -11,4 +11,6 @@ ndcoslo2015: true
 ## Deliberate creativity
 *by Andy Hunt*
 
-**2015-06-18 16:20** (https://vimeo.com/132814070)
+**2015-06-18 16:20**
+
+{% include vimeo.html id="132814070" %}

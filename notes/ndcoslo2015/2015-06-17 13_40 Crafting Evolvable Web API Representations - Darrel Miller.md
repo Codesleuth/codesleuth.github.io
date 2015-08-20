@@ -11,4 +11,6 @@ ndcoslo2015: true
 ## Crafting Evolvable Web API Representations
 *by Darrel Miller*
 
-**2015-06-19 13:40** (https://vimeo.com/131643022)
+**2015-06-19 13:40**
+
+{% include vimeo.html id="131643022" %}

@@ -11,4 +11,6 @@ ndcoslo2015: true
 ## Not Even Close: The State of Computer Security
 *by James Mickens*
 
-**2015-06-18 19:00** (https://vimeo.com/135347162)
+**2015-06-18 19:00**
+
+{% include vimeo.html id="135347162" %}

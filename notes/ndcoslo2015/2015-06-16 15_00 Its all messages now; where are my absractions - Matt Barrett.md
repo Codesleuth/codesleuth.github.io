@@ -11,4 +11,6 @@ ndcoslo2015: true
 ## Its all messages now; where are my absractions
 *by Matt Barrett*
 
-**2015-06-18 15:00** (https://vimeo.com/131636652)
+**2015-06-18 15:00**
+
+{% include vimeo.html id="131636652" %}

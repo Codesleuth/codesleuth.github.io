@@ -11,4 +11,6 @@ ndcoslo2015: true
 ## Loosely coupled applications with MassTransit and RabbitMq
 *by Roland Guijt*
 
-**2015-06-18 13:40** (https://vimeo.com/131635506)
+**2015-06-18 13:40**
+
+{% include vimeo.html id="131635506" %}

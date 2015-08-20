@@ -11,4 +11,6 @@ ndcoslo2015: true
 ## Suceed in Failing
 *by Darrel Miller*
 
-**2015-06-18 10:20** (https://vimeo.com/131632607)
+**2015-06-18 10:20**
+
+{% include vimeo.html id="131632607" %}

@@ -11,4 +11,6 @@ ndcoslo2015: true
 ## To NoSQL or Not to NoSQL, That Is the Question
 *by David Ostrovsky*
 
-**2015-06-17 16:20** (https://vimeo.com/132194546)
+**2015-06-17 16:20**
+
+{% include vimeo.html id="132194546" %}

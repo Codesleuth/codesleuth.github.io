@@ -11,7 +11,9 @@ ndcoslo2015: true
 ## Learning from Haskell
 *by Venkat Subramaniam*
 
-**2015-06-17 15:00** (https://vimeo.com/131409651)
+**{{ page.date | date '%A, %B %Y %H:%M' }}**
+
+{% include vimeo.html id="131409651" %}
 
 * Polyglot developers are more adventurous
 	* Know different, therefore think different

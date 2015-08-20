@@ -11,7 +11,9 @@ ndcoslo2015: true
 ## CQRS – but different
 *by Udi Dahan*
 
-**2015-06-17 13:40** (https://vimeo.com/131199089)
+**2015-06-17 13:40**
+
+{% include vimeo.html id="131199089" %}
 
 #### Background
 * Why do they need it?

@@ -11,4 +11,6 @@ ndcoslo2015: true
 ## The rest of ReST
 *by Dylan Beattie*
 
-**2015-06-19 10:20** (https://vimeo.com/131641615)
+**2015-06-19 10:20**
+
+{% include vimeo.html id="131641615" %}
