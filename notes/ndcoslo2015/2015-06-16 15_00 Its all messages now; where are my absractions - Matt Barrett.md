@@ -9,7 +9,7 @@ ndcoslo2015: true
 # NDC Oslo 2015
 
 ## Its all messages now; where are my absractions
-*by {{ page.speaker }}Matt Barrett*
+*by Matt Barrett*
 
 **{{ page.date | date: '%A, %B %Y %H:%M' }}**
 

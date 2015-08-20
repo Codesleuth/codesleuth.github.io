@@ -9,7 +9,7 @@ ndcoslo2015: true
 # NDC Oslo 2015
 
 ## Suceed in Failing
-*by {{ page.speaker }}Darrel Miller*
+*by Darrel Miller*
 
 **{{ page.date | date: '%A, %B %Y %H:%M' }}**
 

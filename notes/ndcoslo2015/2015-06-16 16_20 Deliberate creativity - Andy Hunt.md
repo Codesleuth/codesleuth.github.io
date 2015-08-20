@@ -9,7 +9,7 @@ ndcoslo2015: true
 # NDC Oslo 2015
 
 ## Deliberate creativity
-*by {{ page.speaker }}Andy Hunt*
+*by Andy Hunt*
 
 **{{ page.date | date: '%A, %B %Y %H:%M' }}**
 

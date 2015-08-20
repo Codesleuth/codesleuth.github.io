@@ -9,7 +9,7 @@ ndcoslo2015: true
 # NDC Oslo 2015
 
 ## Cloud-Scale Event Processing with the Reactive Extensions (Rx)
-*by {{ page.speaker }}Bart De Smet*
+*by Bart De Smet*
 
 **{{ page.date | date: '%A, %B %Y %H:%M' }}**
 
