@@ -11,6 +11,6 @@ ndcoslo2015: true
 ## Its all messages now; where are my absractions
 *by Matt Barrett*
 
-**2015-06-18 15:00**
+**{{ page.date | date: '%A, %B %Y %H:%M' }}**
 
 {% include vimeo.html id="131636652" %}

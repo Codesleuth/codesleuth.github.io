@@ -11,6 +11,6 @@ ndcoslo2015: true
 ## Learning Client Hypermedia from the Ground Up
 *by Mike Amundsen*
 
-**2015-06-19 11:40**
+**{{ page.date | date: '%A, %B %Y %H:%M' }}**
 
 {% include vimeo.html id="131642790" %}

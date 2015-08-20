@@ -11,7 +11,7 @@ ndcoslo2015: true
 ## Duplicating data or replicating data in Micro Services
 *by Dennis van der Stelt*
 
-**2015-06-17 10:20** (video not posted yet)
+**{{ page.date | date: '%A, %B %Y %H:%M' }}**
 
 * Agenda
 	* Monolithic vs Microservices

@@ -11,6 +11,6 @@ ndcoslo2015: true
 ## The rest of ReST
 *by Dylan Beattie*
 
-**2015-06-19 10:20**
+**{{ page.date | date: '%A, %B %Y %H:%M' }}**
 
 {% include vimeo.html id="131641615" %}

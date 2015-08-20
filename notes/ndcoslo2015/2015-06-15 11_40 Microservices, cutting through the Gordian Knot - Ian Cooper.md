@@ -11,7 +11,7 @@ ndcoslo2015: true
 ## Microservices, cutting through the Gordian Knot
 *by Ian Cooper*
 
-**2015-06-17 11:40**
+**{{ page.date | date: '%A, %B %Y %H:%M' }}**
 
 {% include vimeo.html id="132194544" %}
 

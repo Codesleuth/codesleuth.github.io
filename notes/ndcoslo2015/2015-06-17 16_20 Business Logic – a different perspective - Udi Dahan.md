@@ -11,6 +11,6 @@ ndcoslo2015: true
 ## Business Logic – a different perspective
 *by Udi Dahan*
 
-**2015-06-19 16:20**
+**{{ page.date | date: '%A, %B %Y %H:%M' }}**
 
 {% include vimeo.html id="131757759" %}

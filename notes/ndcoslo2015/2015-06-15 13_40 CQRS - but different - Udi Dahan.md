@@ -11,7 +11,7 @@ ndcoslo2015: true
 ## CQRS – but different
 *by Udi Dahan*
 
-**2015-06-17 13:40**
+**{{ page.date | date: '%A, %B %Y %H:%M' }}**
 
 {% include vimeo.html id="131199089" %}
 

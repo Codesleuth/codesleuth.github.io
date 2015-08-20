@@ -11,6 +11,6 @@ ndcoslo2015: true
 ## Suceed in Failing
 *by Darrel Miller*
 
-**2015-06-18 10:20**
+**{{ page.date | date: '%A, %B %Y %H:%M' }}**
 
 {% include vimeo.html id="131632607" %}

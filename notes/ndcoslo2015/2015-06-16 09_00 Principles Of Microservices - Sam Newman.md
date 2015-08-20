@@ -11,7 +11,7 @@ ndcoslo2015: true
 ## Principles Of Microservices
 *by Sam Newman*
 
-**2015-06-18 09:00**
+**{{ page.date | date: '%A, %B %Y %H:%M' }}**
 
 {% include vimeo.html id="131632250" %}
 

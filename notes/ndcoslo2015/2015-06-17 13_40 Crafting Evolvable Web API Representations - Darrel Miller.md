@@ -11,6 +11,6 @@ ndcoslo2015: true
 ## Crafting Evolvable Web API Representations
 *by Darrel Miller*
 
-**2015-06-19 13:40**
+**{{ page.date | date: '%A, %B %Y %H:%M' }}**
 
 {% include vimeo.html id="131643022" %}

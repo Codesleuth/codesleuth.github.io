@@ -11,7 +11,7 @@ ndcoslo2015: true
 ## Keynote - Data and Goliath: The Hidden Battles to Collect Your Data and Control Your World
 *by Bruce Schneier*
 
-**2015-06-17 09:00**
+**{{ page.date | date: '%A, %B %Y %H:%M' }}**
 
 {% include vimeo.html id="131115865" %}
 

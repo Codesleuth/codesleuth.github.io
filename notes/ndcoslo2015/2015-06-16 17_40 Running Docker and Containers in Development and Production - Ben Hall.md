@@ -11,6 +11,6 @@ ndcoslo2015: true
 ## Running Docker and Containers in Development and Production
 *by Ben Hall*
 
-**2015-06-18 17:40**
+**{{ page.date | date: '%A, %B %Y %H:%M' }}**
 
 {% include vimeo.html id="131639823" %}
