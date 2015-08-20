@@ -5,7 +5,7 @@ date: 2015-06-17 10:20
 permalink: /notes/ndcoslo2015/Duplicating-data-or-replicating-data-in-Micro-Services.html
 ndcoslo2015: true
 speaker:
-    name: Dennis van der Stelt
+  name: Dennis van der Stelt
 ---
 
 # NDC Oslo 2015
