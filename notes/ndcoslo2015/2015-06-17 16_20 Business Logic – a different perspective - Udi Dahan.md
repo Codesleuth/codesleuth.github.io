@@ -13,4 +13,4 @@ ndcoslo2015: true
 
 **2015-06-19 16:20**
 
-<iframe width="960" height="540" src="http://player.vimeo.com/video/131757759" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+{% include vimeo.html id="131757759" %}

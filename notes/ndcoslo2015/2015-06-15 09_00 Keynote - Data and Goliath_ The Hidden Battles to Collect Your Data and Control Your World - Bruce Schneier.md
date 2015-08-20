@@ -11,7 +11,9 @@ ndcoslo2015: true
 ## Keynote - Data and Goliath: The Hidden Battles to Collect Your Data and Control Your World
 *by Bruce Schneier*
 
-**2015-06-17 09:00** (https://vimeo.com/131115865)
+**2015-06-17 09:00**
+
+{% include vimeo.html id="131115865" %}
 
 * We produce data and it’s easy to save it…
 
