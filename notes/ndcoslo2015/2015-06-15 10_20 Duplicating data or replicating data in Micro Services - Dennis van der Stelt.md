@@ -92,5 +92,3 @@ permalink: /notes/ndcoslo2015/Duplicating-data-or-replicating-data-in-Micro-Serv
 	* Race condition?
 * Republishing to local data replicas? How?
 	* See [Udi’s talk on Medicat Scenario](https://vimeo.com/113515335)
-
-> Written with [StackEdit](https://stackedit.io/).

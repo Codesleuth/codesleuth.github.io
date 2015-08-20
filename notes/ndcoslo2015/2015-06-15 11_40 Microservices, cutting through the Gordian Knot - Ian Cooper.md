@@ -23,4 +23,3 @@ permalink: /notes/ndcoslo2015/Microservices-cutting-through-the-Gordian-Knot.htm
 
 * Composition options
 # TODO
-> Written with [StackEdit](https://stackedit.io/).

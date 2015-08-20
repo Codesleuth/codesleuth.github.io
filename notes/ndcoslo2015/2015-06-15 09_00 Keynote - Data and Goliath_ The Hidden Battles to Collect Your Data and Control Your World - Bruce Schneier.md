@@ -2,14 +2,14 @@
 layout: stackedit
 title: Data and Goliath: The Hidden Battles to Collect Your Data and Control Your World
 date: 2015-06-15 09:00
-permalink: /notes/ndcoslo2015/Data-and-Goliath-The-Hidden-Battles-to-Collect-Your-Data-and-Control-Your-World.html
+permalink: /notes/ndcoslo2015/Keynote-Data-and-Goliath-The-Hidden-Battles-to-Collect-Your-Data-and-Control-Your-World.html
 ---
 
 # NDC Oslo 2015
-## Data and Goliath: The Hidden Battles to Collect Your Data and Control Your World
+## Keynote - Data and Goliath: The Hidden Battles to Collect Your Data and Control Your World
 *by Bruce Schneier*
 
-**2015-06-15 10:20** (No video yet)
+**2015-06-15 09:00** (https://vimeo.com/131115865)
 
 * We produce data and it’s easy to save it…
 
@@ -58,5 +58,3 @@ permalink: /notes/ndcoslo2015/Data-and-Goliath-The-Hidden-Battles-to-Collect-You
 		* Bad for the individual
 
 *“Metadata is the pollution”*
-
-> Written with [StackEdit](https://stackedit.io/).

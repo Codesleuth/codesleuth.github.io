@@ -48,4 +48,3 @@ permalink: /notes/ndcoslo2015/Learning-from-Haskell.html
 	* Functional expressions
 
 * Infinite series with `yield returns` already available in C#!
-> Written with [StackEdit](https://stackedit.io/).
