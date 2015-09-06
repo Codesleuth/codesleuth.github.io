@@ -1,10 +1,16 @@
 # Site settings
 title: Codesleuth
 email: david.p.wood@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
+description: >
   Developer from England, writing C# .NET by day and Node.js by night
 baseurl: ""
 url: "http://www.codesleuth.co.uk"
+permalink: /:year/:month/:title
+paginate: 5
+paginate_path: "/page/:num"
+timezone: Europe/London
+
+# Custom settings
 blog_url: "https://medium.com/@Codesleuth"
 twitter_username: codesleuth
 github_username: codesleuth
@@ -17,3 +23,20 @@ markdown: kramdown
 # Enabled Gems
 gems:
 - jekyll-redirect-from
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      published: false
+      author: David Wood
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "drafts"
+    values:
+      layout: "post"
