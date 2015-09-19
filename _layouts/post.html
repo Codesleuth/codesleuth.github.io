@@ -1,27 +1,24 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ "/bower_components/pure/pure-min.css" | prepend: site.baseurl }}" />
-  <!--[if lte IE 8]>
-    <link rel="stylesheet" href="{{ "/bower_components/pure/grids-responsive-old-ie-min.css" | prepend: site.baseurl }}">
-  <![endif]-->
-  <!--[if gt IE 8]><!-->
-      <link rel="stylesheet" href="{{ "/bower_components/pure/grids-responsive-min.css" | prepend: site.baseurl }}">
-  <!--<![endif]-->
+---
+layout: index
+---
+
+<div class="posts">
   
-</head>
-<body>
-<div id="header" class="container" style="margin-bottom: 20px">
-  <blockquote>
-    <a href="/">← Home</a>
-  </blockquote>
+  <section class="post">
+    <header class="post-header">
+      <img class="post-avatar" alt="David Wood&#x27;s avatar" height="48" width="48" src="{{ "/img/davidw-avatar.png" | prepend: site.baseurl }}">
+  
+      <h2 class="post-title">{{ page.title }}</h2>
+  
+      <p class="post-meta">
+        By <span="post-author">{{ page.author }}</a>
+        under <span class="post-category post-category-js">{{ page.category }}</span>, 
+        tagged {% for tag in page.tags %}<span class="post-tag">{{tag}}</span>{% endfor %}
+      </p>
+    </header>
+  
+    <div class="post-description">
+      {{ content }}
+    </div>
+  </section>
 </div>
-<div class="container">
-{{ content }}
-</div>
-{% include analytics.html %}
-</body>
-</html>

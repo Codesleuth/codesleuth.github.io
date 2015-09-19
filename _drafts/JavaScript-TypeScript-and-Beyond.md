@@ -1,7 +1,7 @@
 ---
 title: "TypeScript, JavaScript, and Beyond"
 date: 2015-09-04 11:22
-categories: [Blog]
+category: [Blog]
 tags: [typescript, javascript]
 published: true
 pinned: true
@@ -30,7 +30,7 @@ Being a dynamic language without requiring any compilation step, JavaScript will
 
 Using a language which has many dynamic and flexible features can sometimes become confusing, especially due to the lack of an early warning system like a build step. Babel will give you a large portion of this, but overall it won't tell you when you're doing something by mistake, such as expecting a string but passing a number:
 
-{% highlight javascript linenos %}
+{% highlight javascript %}
 function hello(text) {
   return text.split(' ')
 }
@@ -44,7 +44,7 @@ hello(10)
 
 Some would argue that this is a powerful part of the language, and I have seem some clever use of this for all sorts of strange behaviour. However, there are libraries which make an attempt to protect the developer from this particular mistake by *throwing their own error* back at the developer:
 
-{% highlight javascript linenos %}
+{% highlight javascript %}
 function hello(text) {
   if (typeof text !== 'string')
     throw Error('text must be a string')
@@ -69,7 +69,7 @@ If Babel fails to understand the intent of your code, it can warn of the problem
 ### Declarative intent
 The simplest solution would be to have a step which can make use of *declared intent* and use this to warn of the problem. This is where TypeScript comes in, and boasts *types* as a core feature:
 
-{% highlight javascript linenos %}
+{% highlight javascript %}
 function hello(text: string) {
   return text.split(' ')
 }
@@ -104,7 +104,7 @@ The first step to using TypeScript is to pass all code through the [compiler, `t
 
 The power of the compiler lies within its ability to recognise types and be able to warn the user of type violations, including suggestions of what may be wrong. If everything is fine, the compiler will create code that looks exactly like JavaScript. Take the following example of a class:
 
-{% highlight javascript linenos %}
+{% highlight javascript %}
 class Customer {
   private _customerId: number
   
@@ -128,7 +128,7 @@ customer.sayHello()
 
 When targeting ESCMAScript 5 for the output of this script, the compiler generates the following:
 
-{% highlight javascript linenos %}
+{% highlight javascript %}
 var Customer = (function () {
     function Customer(customerId) {
         this._customerId = customerId;
@@ -157,7 +157,7 @@ The compiler has created a class with a prototype function and one object proper
 
 In the example above, the `Customer` object expects a number for the ID when it is created. If a non-number type were used in the example, the compiler would show an error:
 
-{% highlight javascript linenos %}
+{% highlight javascript %}
 var customer = new Customer("10")
 // error TS2345: Argument of type 'string' is not assignable to parameter of type 'number'.
 {% endhighlight %}
@@ -168,7 +168,7 @@ This can be very helpful when developing or refactoring large code bases. In the
 
 In the previous example, the keyword `private` marks a property as inaccessible outside of the object's scope. It's important to understand that *this means nothing to JavaScript*, and only serves to help the TypeScript developers by scoping variables arbitrarily. There's nothing stopping a developer using the class above as follows:
 
-{% highlight javascript linenos %}
+{% highlight javascript %}
 var customer = new Customer(10)
 customer._customerId = "potato"
 customer.sayHello()
@@ -176,7 +176,7 @@ customer.sayHello()
 {% endhighlight %}
 
 This is valid when consuming the JavaScript code, but in TypeScript the compiler will display the following:
-{% highlight javascript linenos %}
+{% highlight javascript %}
 error TS2322: Type 'string' is not assignable to type 'number'.
 error TS2341: Property '_customerId' is private and only accessible within class 'Customer'.
 {% endhighlight %}
@@ -187,7 +187,7 @@ Even so, errors can be ignored, and the class can be used in this way *since thi
 
 Classes can be inherited with the `extends` keyword, which creates the class as an extension of the original properties of the base class. For example:
 
-{% highlight javascript linenos %}
+{% highlight javascript %}
 class DomainObject {
   protected _id: number
   

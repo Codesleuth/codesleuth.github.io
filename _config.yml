@@ -1,8 +1,8 @@
 # Site settings
 title: Codesleuth
 email: david.p.wood@gmail.com
-description: >
-  Developer from England, writing C# .NET by day and Node.js by night
+description: Dave Emitter
+tagline: Read my stuff
 baseurl: ""
 url: "http://www.codesleuth.co.uk"
 permalink: /:year/:month/:title
@@ -27,14 +27,15 @@ defaults:
   -
     scope:
       path: ""
-      type: "posts"
+      type: posts
     values:
       published: false
       author: David Wood
-      layout: "post"
+      layout: post
   -
     scope:
       path: ""
-      type: "drafts"
+      type: drafts
     values:
-      layout: "post"
+      author: David Wood
+      layout: post

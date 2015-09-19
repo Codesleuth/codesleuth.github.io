@@ -49,6 +49,10 @@ h3 {
     font-weight: 300;
     color: rgb(176, 202, 219);
 }
+.brand-title a {
+  text-decoration: none;
+  color: inherit;
+}
 
 .nav-list {
     margin: 0;
@@ -120,18 +124,19 @@ h3 {
     background: #999;
     font-size: 80%;
 }
-    .post-category-design {
-        background: #5aba59;
-    }
-    .post-category-pure {
-        background: #4d85d1;
-    }
-    .post-category-yui {
-        background: #8156a7;
-    }
-    .post-category-js {
-        background: #df2d4f;
-    }
+
+.post-category-blog {
+    background: #4d85d1;
+}
+
+.post-tag {
+    margin: 0 0.1em;
+    padding: 0.3em 1em;
+    color: #fff;
+    background: #999;
+    font-size: 80%;
+    background: #e9a;
+}
 
 .post-images {
     margin: 1em 0;
