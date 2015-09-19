@@ -19,10 +19,8 @@ stackoverflow_username: codesleuth
 
 # Build settings
 markdown: kramdown
-
-# Enabled Gems
-gems:
-- jekyll-redirect-from
+highlighter: pygments
+excerpt_separator: <!--more-->
 
 # Defaults
 defaults:

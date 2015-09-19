@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <link rel="stylesheet" href="bower_components/pure/pure-min.css">
+  <link rel="stylesheet" href="css/syntax.css">
+  <!--[if lte IE 8]>
+    <link rel="stylesheet" href="bower_components/pure/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="bower_components/pure/grids-responsive-min.css">
+  <!--<![endif]-->
+  <!--[if lte IE 8]>
+    <link rel="stylesheet" href="css/blog-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="css/blog.css">
+  <!--<![endif]-->
+</head>
+<body>
+<div id="layout" class="pure-g">
+{{ content }}
+</div>
+{% include analytics.html %}
+</body>
+</html>
