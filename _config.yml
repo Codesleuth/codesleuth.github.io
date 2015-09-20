@@ -27,15 +27,21 @@ defaults:
   -
     scope:
       path: ""
-      type: posts
+      type: "posts"
     values:
       published: false
-      author: David Wood
-      layout: post
+      author: "David Wood"
+      layout: "post"
   -
     scope:
       path: ""
-      type: drafts
+      type: "drafts"
     values:
-      author: David Wood
-      layout: post
+      author: "David Wood"
+      layout: "post"
+  -
+    scope:
+      path: "notes"
+      type: "pages"
+    values:
+      layout: "note"

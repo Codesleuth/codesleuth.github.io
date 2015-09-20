@@ -1,16 +1,13 @@
 ---
-layout: stackedit
 title: Microservices, cutting through the Gordian Knot
-date: 2015-06-15 11:40
+date: 2015-06-17 11:40
 permalink: /notes/ndcoslo2015/Microservices-cutting-through-the-Gordian-Knot.html
-ndcoslo2015: true
+event: "NDC Oslo 2015"
+speaker: 
+  name: Ian Cooper
 ---
 
-# NDC Oslo 2015
-## Microservices, cutting through the Gordian Knot
-*by Ian Cooper*
-
-**2015-06-15 11:40** (https://vimeo.com/132194544)
+{% include vimeo.html id="132194544" %}
 
 * Lone Dev
 	* Main + subroutines

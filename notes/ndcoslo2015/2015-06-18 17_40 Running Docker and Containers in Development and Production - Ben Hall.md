@@ -1,13 +1,11 @@
 ---
 layout: stackedit
 title: Running Docker and Containers in Development and Production
-date: 2015-06-16 17:40
+date: 2015-06-18 17:40
 permalink: /notes/ndcoslo2015/Running-Docker-and-Containers-in-Development-and-Production.html
-ndcoslo2015: true
+event: "NDC Oslo 2015"
+speaker:
+  name: Ben Hall
 ---
 
-# NDC Oslo 2015
-## Running Docker and Containers in Development and Production
-*by Ben Hall*
-
-**2015-06-16 17:40** (https://vimeo.com/131639823)
+{% include vimeo.html id="131639823" %}

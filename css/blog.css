@@ -107,14 +107,16 @@ h3 {
     margin-left: 1em;
 }
 .post-description {
-    font-family: Georgia, "Cambria", serif;
+    /*font-family: Georgia, "Cambria", serif;*/
+    font-family: Arial, Verdana, sans-serif;
     color: #444;
     line-height: 1.8em;
 }
 .post-meta {
     color: #999;
     font-size: 90%;
-    margin: 0;
+    /*margin: 0;*/
+    line-height: 1.5em;
 }
 
 .post-category {
@@ -133,7 +135,6 @@ h3 {
     margin: 0 0.1em;
     padding: 0.3em 1em;
     color: #fff;
-    background: #999;
     font-size: 80%;
     background: #e9a;
 }
@@ -161,7 +162,30 @@ h3 {
     background: none;
 }
 
-@media (min-width: 48em) {
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+.highlight {
+  background-color: ivory;
+}
+
+@media (min-width: 64em) {
     .content {
         padding: 2em 3em 0;
         margin-left: 25%;

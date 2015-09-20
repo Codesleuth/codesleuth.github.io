@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 ---
 
 <div class="posts">
@@ -11,8 +11,8 @@ layout: index
       <h2 class="post-title">{{ page.title }}</h2>
   
       <p class="post-meta">
-        By <span="post-author">{{ page.author }}</a>
-        under <span class="post-category post-category-js">{{ page.category }}</span>, 
+        By <span="post-author">{{ page.author }}</a></span> under <span class="post-category post-category-js">{{ page.category }}</span>
+        on <time itemprop="dateCreated" datetime="{{ post.date }}">{{ page.date | date: '%B %d, %Y' }}</time>, 
         tagged {% for tag in page.tags %}<span class="post-tag">{{tag}}</span>{% endfor %}
       </p>
     </header>
@@ -21,4 +21,20 @@ layout: index
       {{ content }}
     </div>
   </section>
+  
+  {% if site.developer != true %}
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      /* * * CONFIGURATION VARIABLES * * */
+      var disqus_shortname = 'codesleuth';
+      
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+  {% endif %}
 </div>

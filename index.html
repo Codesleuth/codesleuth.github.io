@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 ---
 
 <div class="posts">
@@ -8,21 +8,7 @@ layout: index
   
 {% for post in site.posts %}
 {% if post.pinned == true %}
-  <section class="post">
-    <header class="post-header">
-      <img class="post-avatar" alt="Eric Ferraiuolo&#x27;s avatar" height="48" width="48" src="img/common/ericf-avatar.png">
-
-      <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-
-      <p class="post-meta">
-        By <a class="post-author" href="#">Eric Ferraiuolo</a> under <a class="post-category post-category-js" href="#">JavaScript</a>
-      </p>
-    </header>
-
-    <div class="post-description">
-      {{ post.excerpt }}
-    </div>
-  </section>
+{% include postexcerpt.html %}
 {% endif %}
 {% endfor %}
 
@@ -32,21 +18,9 @@ layout: index
   <h1 class="content-subhead">Recent Posts</h1>
   
 {% for post in site.posts %}
-  <section class="post">
-    <header class="post-header">
-      <img class="post-avatar" alt="Eric Ferraiuolo&#x27;s avatar" height="48" width="48" src="img/common/ericf-avatar.png">
-
-      <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-
-      <p class="post-meta">
-        By <a class="post-author" href="#">Eric Ferraiuolo</a> under <a class="post-category post-category-js" href="#">JavaScript</a>
-      </p>
-    </header>
-
-    <div class="post-description">
-      {{ post.excerpt }}
-    </div>
-  </section>
+{% if post.pinned != true %}
+{% include postexcerpt.html %}
+{% endif %}
 {% endfor %}
 
 </div>

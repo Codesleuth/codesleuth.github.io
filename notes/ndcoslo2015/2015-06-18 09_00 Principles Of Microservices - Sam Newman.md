@@ -1,16 +1,14 @@
 ---
 layout: stackedit
 title: Principles Of Microservices
-date: 2015-06-16 09:00
+date: 2015-06-18 09:00
 permalink: /notes/ndcoslo2015/Principles-Of-Microservices.html
-ndcoslo2015: true
+event: "NDC Oslo 2015"
+speaker:
+  name: Sam Newman
 ---
 
-# NDC Oslo 2015
-## Principles Of Microservices
-*by Sam Newman*
-
-**2015-06-16 09:00** (https://vimeo.com/131632250)
+{% include vimeo.html id="131632250" %}
 
 > _"Small *Autonomous* services that **work together**, modelled around a **business domain**"_ (deployed independently)
   

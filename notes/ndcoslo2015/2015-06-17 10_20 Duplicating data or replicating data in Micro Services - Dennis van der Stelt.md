@@ -1,29 +1,24 @@
 ---
-layout: stackedit
 title: Duplicating data or replicating data in Micro Services
-date: 2015-06-15 10:20
+date: 2015-06-17 10:20
 permalink: /notes/ndcoslo2015/Duplicating-data-or-replicating-data-in-Micro-Services.html
-ndcoslo2015: true
+event: "NDC Oslo 2015"
+speaker:
+  name: Dennis van der Stelt
 ---
-
-# NDC Oslo 2015
-## Duplicating data or replicating data in Micro Services
-*by Dennis van der Stelt*
-
-**2015-06-15 10:20** (video not posted yet)
 
 * Agenda
 	* Monolithic vs Microservices
 	* Service boundaries
 	* Replicating vs Duplicating data
 
-#### Monoliths
+## Monoliths
 
 * Large, powerful, and interactively indivisible
 * Built & deployed as a single unit
 * A monolith is not badly designed by default
 
-#### Microservices
+## Microservices
 
 * Small, independant processes
 * Highly decoupled
@@ -32,7 +27,7 @@ ndcoslo2015: true
 * Share schema & contract
 * Compatibility based on policy
 
-### The Monolith
+# The Monolith
 
 * What change are you making in a monolith? Is it tested?
 
@@ -51,7 +46,7 @@ ndcoslo2015: true
 	* Deployment
 	* Monitoring
 
-### The Microservice
+# The Microservice
 
 * Logical service boundaries
 	* Table joins are just DB coupling
@@ -87,7 +82,7 @@ ndcoslo2015: true
 	* Different machines mean latency
 	* Different sites mean network issues
 
-#### My questions
+## My questions
 * Taxi Arrived vs. Request Cancelled
 	* Multiple consumers?
 	* Race condition?

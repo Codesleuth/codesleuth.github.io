@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="notes">
+  
+  <section class="post">
+    <header class="post-header">
+      <img class="post-avatar" alt="David Wood&#x27;s avatar" height="48" width="48" src="{{ "/img/davidw-avatar.png" | prepend: site.baseurl }}">
+  
+      <h2 class="post-title">{{ page.title }}</h2>
+  
+      <p class="post-meta">
+        By <span class="post-author">{{ page.speaker.name }}</span>
+        on <time itemprop="dateCreated" datetime="{{ page.date }}">{{ page.date | date: '%H:%M %A, %e %B, %Y' }}</time>
+      </p>
+    </header>
+  
+    <div class="post-description">
+      {{ content }}
+    </div>
+  </section>
+</div>
