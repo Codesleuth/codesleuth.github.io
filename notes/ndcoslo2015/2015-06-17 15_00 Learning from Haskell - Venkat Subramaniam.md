@@ -1,5 +1,4 @@
 ---
-layout: stackedit
 title: Learning from Haskell
 date: 2015-06-17 15:00
 permalink: /notes/ndcoslo2015/Learning-from-Haskell.html

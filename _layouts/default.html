@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{{ site.description }}">
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="stylesheet" href="{{ "/bower_components/pure/pure-min.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/manni.css" | prepend: site.baseurl }}">
   <!--[if lte IE 8]>
@@ -35,13 +36,16 @@
       <nav class="nav">
         <ul class="nav-list">
           <li class="nav-item">
-            <a class="pure-button" href="{{ "/" | prepend: site.baseurl }}">Home</a>
-          </li>
-          <li class="nav-item">
             <a class="pure-button" href="{{ "/split-sms/" | prepend: site.baseurl }}">split-sms</a>
           </li>
           <li class="nav-item">
             <a class="pure-button" href="{{ "/esandex/" | prepend: site.baseurl }}">Esandex</a>
+          </li>
+          <li class="nav-item">
+            <a class="pure-button" href="{{ "/push-broker/" | prepend: site.baseurl }}">Push-Broker</a>
+          </li>
+          <li class="nav-item">
+            <a class="pure-button" href="http://push-codesleuth.rhcloud.com/">Esendex-Push</a>
           </li>
         </ul>
       </nav>

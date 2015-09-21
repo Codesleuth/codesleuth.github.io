@@ -1,5 +1,4 @@
 ---
-layout: stackedit
 title: Principles Of Microservices
 date: 2015-06-18 09:00
 permalink: /notes/ndcoslo2015/Principles-Of-Microservices.html

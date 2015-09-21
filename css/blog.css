@@ -185,6 +185,10 @@ blockquote p {
   background-color: ivory;
 }
 
+.photo {
+  border: 1px solid black;
+}
+
 @media (min-width: 64em) {
     .content {
         padding: 2em 3em 0;

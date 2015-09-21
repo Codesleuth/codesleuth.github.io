@@ -1,5 +1,4 @@
 ---
-layout: stackedit
 title: CQRS – but different
 date: 2015-06-17 13:40
 permalink: /notes/ndcoslo2015/CQRS-but-different.html

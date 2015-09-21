@@ -1,5 +1,4 @@
 ---
-layout: stackedit
 title: Deliberate creativity
 date: 2015-06-18 16:20
 permalink: /notes/ndcoslo2015/Deliberate-creativity.html

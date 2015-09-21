@@ -11,7 +11,7 @@ layout: default
       <h2 class="post-title">{{ page.title }}</h2>
   
       <p class="post-meta">
-        By <span="post-author">{{ page.author }}</a></span> under <span class="post-category post-category-js">{{ page.category }}</span>
+        By <span class="post-author">{{ page.author }}</a></span> under <span class="post-category post-category-js">{{ page.category }}</span>
         on <time itemprop="dateCreated" datetime="{{ post.date }}">{{ page.date | date: '%B %d, %Y' }}</time>, 
         tagged {% for tag in page.tags %}<span class="post-tag">{{tag}}</span>{% endfor %}
       </p>

@@ -135,6 +135,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-redirect-from (~> 0.8.0)
+  jekyll-sitemap
   kramdown
   wdm (~> 0.1.0)
 

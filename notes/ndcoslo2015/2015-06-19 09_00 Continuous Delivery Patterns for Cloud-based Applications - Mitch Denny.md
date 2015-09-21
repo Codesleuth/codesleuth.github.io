@@ -1,5 +1,4 @@
 ---
-layout: stackedit
 title: Continuous Delivery Patterns for Cloud-based Applications
 date: 2015-06-19 09:00
 permalink: /notes/ndcoslo2015/Continuous-Delivery-Patterns-for-Cloud-based-Applications.html
