@@ -196,13 +196,16 @@ blockquote p {
     }
 
     .header {
-        margin: 80% 2em 0;
+        margin: 0 1em 0;
         text-align: right;
+        position: absolute;
+        top: 30%;
     }
 
     .sidebar {
         position: fixed;
         top: 0;
         bottom: 0;
+        
     }
 }
