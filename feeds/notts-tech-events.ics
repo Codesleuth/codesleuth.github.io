@@ -1,47 +1,7 @@
 ---
-meetups:
-  -
-    title: Tech Nottingham
-    website: http://www.technottingham.com
-    location: Antenna, Beck St, Nottingham, NG1 1EQ, United Kingdom
-    events:
-      -
-        title: Introduction to Rust
-        speaker: James Westby
-        url: http://www.technottingham.com/events/2015/9/7/tech-nottingham-september-2015-introduction-to-rust
-        uid: 3ef3df93-f844-42aa-ab67-053276212484
-        start: 2015-09-07 18:30:00 +0100
-        end: 2015-09-07 21:00:00 +0100
-      -
-        uid: 0db99af9-3756-4db4-adba-2f39352dacda
-        start: 2015-10-05 18:30:00 +0100
-        end: 2015-10-05 21:00:00 +0100
-      -
-        uid: cdf254f9-8998-4fbe-acdf-8b9b3313fbb3
-        start: 2015-11-02 18:30:00 +0100
-        end: 2015-11-02 21:00:00 +0100
-  -
-    title: Dot Net Notts
-    website: http://www.technottingham.com
-    location: Capital One, Station St, Nottingham, NG1 7HW
-    events:
-      -
-        title: RabbitMQ
-        speaker: Stephen Haunts
-        url: http://www.meetup.com/dotnetnotts/events/221771895/
-        uid: d88a3d77-95ef-44c3-829d-ec869a8f2f8a
-        start: 2015-10-26 19:00:00 +0100
-        end: 2015-10-26 21:00:00 +0100
-      -
-        title: .Net core
-        speaker: Matt Ellis
-        uid: 88931eca-00f4-45ff-8cd7-7464adadc98c
-        start: 2015-11-30 19:00:00 +0100
-        end: 2015-11-30 21:00:00 +0100
 ---
 BEGIN:VCALENDAR
-VERSION:2.0{% for meetup in page.meetups %}{% for event in meetup.events %}
-
+VERSION:2.0{% for meetup in site.data.meetups %}{% for event in meetup.events %}
 BEGIN:VEVENT
 UID:david.p.wood+{{ event.uid }}@gmail.com
 DTSTART;TZID={{ site.timezone }}:{{ event.start | date: '%Y%m%dT%H%M%S' }}
