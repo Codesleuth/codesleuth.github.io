@@ -7,6 +7,7 @@ UID:david.p.wood+{{ event.uid }}@gmail.com
 DTSTART;TZID={{ site.timezone }}:{{ event.start | date: '%Y%m%dT%H%M%S' }}
 DTEND;TZID={{ site.timezone }}:{{ event.end | date: '%Y%m%dT%H%M%S' }}
 SUMMARY:{{ meetup.title }}{% if event.title %} - {{ event.title }} by {{ event.speaker }}{% endif %}
-LOCATION:{% if event.location %}{{ event.location }}{% else %}{{ meetup.location }}{% endif %}{% if event.url %}URL:{{ event.url }}{% endif %}
+LOCATION:{% if event.location %}{{ event.location }}{% else %}{{ meetup.location }}{% endif %}{% if event.url %}
+URL:{{ event.url }}{% endif %}
 END:VEVENT{% endfor %}{% endfor %}
 END:VCALENDAR

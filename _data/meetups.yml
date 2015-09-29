@@ -33,6 +33,40 @@
     -
       title: .Net core
       speaker: Matt Ellis
+      url: http://www.meetup.com/dotnetnotts/events/224210559/
       uid: 88931eca-00f4-45ff-8cd7-7464adadc98c
       start: 2015-11-30 19:00:00 +0100
       end: 2015-11-30 21:00:00 +0100
+-
+  title: Agile Nottingham
+  website: http://www.meetup.com/NottAgile/
+  location: Capital One, Station St, Nottingham, NG1 7HW
+  events:
+    -
+      title: October Meetup - Scrum talks
+      speaker: Stephen Haunts
+      url: http://www.meetup.com/NottAgile/events/224784830/
+      uid: 68ff2cc9-9c9a-49bf-8116-a577cf15f352
+      start: 2015-10-21 18:30:00 +0100
+      end: 2015-10-21 21:30:00 +0100
+    -
+      title: November Meetup
+      speaker: TBD
+      url: http://www.meetup.com/NottAgile/events/224784837/
+      uid: 465d18af-9ab0-4eb1-9c70-618d648cd674
+      start: 2015-11-18 18:30:00 +0100
+      end: 2015-11-18 21:30:00 +0100
+    -
+      title: December meetup - Scrum Pub Quiz
+      speaker: Chris R.
+      url: http://www.meetup.com/NottAgile/events/224784844/
+      uid: 26ce0b04-577a-47a0-ab7d-9f55b0596071
+      start: 2015-12-16 18:30:00 +0100
+      end: 2015-12-16 21:30:00 +0100
+    -
+      title: "January Meetup - Agile Myths: Debunking four common misconceptions about Agile"
+      speaker: David Daly
+      url: http://www.meetup.com/NottAgile/events/225615153/
+      uid: 99938dcc-e874-42ae-b2a7-2467f3df1ffd
+      start: 2016-01-20 18:30:00 +0100
+      end: 2016-01-20 21:30:00 +0100
