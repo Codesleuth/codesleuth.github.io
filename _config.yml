@@ -45,6 +45,7 @@ defaults:
       type: "pages"
     values:
       layout: "note"
-      
+
 gems:
   - jekyll-sitemap
+  - jekyll-feed

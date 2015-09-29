@@ -6,6 +6,7 @@
   <meta name="description" content="{{ site.description }}">
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  {% feed_meta %}
   <link rel="stylesheet" href="{{ "/bower_components/pure/pure-min.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/manni.css" | prepend: site.baseurl }}">
   <!--[if lte IE 8]>
