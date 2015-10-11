@@ -1,0 +1,27 @@
+---
+layout: snags
+title: Snag Lists
+date: 2015-10-11 17:00
+---
+
+{% for list in site.data.snags sort_by:date order:descending %}
+{% assign slug = list.date | slugify | prepend: "list-"  %}
+<section>
+  <h2><a name="{{ slug }}" href="#{{ slug }}">#</a> List {{ forloop.index }}, {{ list.date | date: '%B %d, %Y %r' }}</h2>
+  <header>
+    <p class="meta">
+      By {{ list.author }} to {{ list.to }}
+    </p>  
+  </header>
+{% for area in list.list %}
+  <div class="area">
+    <h3>{{ area.area }}</h3>
+    <ul>
+{% for todo in area.todo %}
+      <li>&#9744; {{ todo }}</li>
+{% endfor %}
+    </ul>
+  </div>
+{% endfor %}
+</div>
+{% endfor %}
