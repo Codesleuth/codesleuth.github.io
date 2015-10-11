@@ -7,7 +7,7 @@ date: 2015-10-11 17:00
 {% for list in site.data.snags sort_by:date order:descending %}
 {% assign slug = list.date | slugify | prepend: "list-"  %}
 <section>
-  <h2><a name="{{ slug }}" href="#{{ slug }}">#</a> List {{ forloop.index }}, {{ list.date | date: '%B %d, %Y %r' }}</h2>
+  <h2><a name="{{ slug }}" href="#{{ slug }}">#</a> List: {{ list.date | date: '%B %d, %Y %r' }}</h2>
   <header>
     <p class="meta">
       By {{ list.author }} to {{ list.to }}
@@ -16,9 +16,14 @@ date: 2015-10-11 17:00
 {% for area in list.list %}
   <div class="area">
     <h3>{{ area.area }}</h3>
-    <ul>
+    <ul class="todo">
 {% for todo in area.todo %}
       <li>&#9744; {{ todo }}</li>
+{% endfor %}
+    </ul>
+    <ul class="completed">
+{% for item in area.completed %}
+      <li>&#9745; {{ item }}</li>
 {% endfor %}
     </ul>
   </div>
