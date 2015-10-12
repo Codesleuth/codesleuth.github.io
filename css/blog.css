@@ -189,6 +189,10 @@ blockquote p {
   border: 1px solid black;
 }
 
+ul.todo, ul.completed {
+  text-indent: -1.2em;
+}
+
 ul.todo li {
   list-style: none;
 }
