@@ -24,7 +24,7 @@ This year's challenges come from some regular sponsors, and a few from newcomers
 * [Autodesk](http://adndevblog.typepad.com/aec/2015/09/join-us-at-hackmanchester-in-october.html)
 * [Rise](http://thinkrise.com/pages/manchester-challenge.html)
 
-The challenges this year have taken a _turn for the vague_ and haven't impressed me very much. There's some interesting technical challenges to overcome, but the scope for ideas has taken us through the ropes and shrunk to a in-deterministic ramble of rubbish which we're all disappointed with.
+The challenges this year have taken a _turn for the vague_ and haven't impressed me very much. There are some interesting technical challenges to overcome, but the scope for ideas has taken us through the ropes and shrunk to a in-deterministic ramble of rubbish which we're all disappointed with.
 
 ### Challenge: WA:UK Tech Angels
 
