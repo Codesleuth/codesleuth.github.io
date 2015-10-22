@@ -9,7 +9,7 @@ pinned: true
 
 ![Hack Manchester Logo]({{ "/img/hack-manchester-logo.png" | prepend: site.baseurl }}){:class="pure-img"}
 
-Hack Manchester is an annual hack event which takes place in the heart of Manchester at the Museum of Science and Industry. 
+[Hack Manchester](http://www.hackmanchester.com/) is an annual hack event which takes place in the heart of Manchester at the Museum of Science and Industry. 
 Hundreds of people descend on Manchester to spend 25 hours coding up the best solution they can come up with to the challenges set by the sponsors, in the hope to win a flurry of prizes up for grabs.
 
 In this post I will attempt to demystify the selection of challenges available for the event this year, with some interesting results and suggestions based upon light-hearted analysis and somewhat personal preference.
