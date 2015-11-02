@@ -1,4 +1,169 @@
 -
+  author: David Wood
+  to: Denise Loveridge
+  date: 2015-11-02 12:51
+  list:
+    -
+      area: Outside Front
+      todo:
+          - "Water meter on street is flooded, freeze risk"
+    -
+      area: Outside Back
+      todo: 
+        - Light switch works the wrong way
+      completed:
+        - Outside tap doesn't work
+    -
+      area: Entrance / Hallway
+      todo: 
+        - Front door snags on threshold - rubber damaged
+      completed:
+        - Ceiling and wall chips
+        - Letter box full of dirt
+        - Alarm keypad dirty
+        - Smoke alarm not mains connected
+    -
+      area: W/C
+      todo:
+        - Paint on floor - splashes
+      completed:
+        - Hole on inside of door near lock
+        - Paint on handle
+    -
+      area: Entrance Cupboard
+      todo:
+        - Catch a mess for no hole in frame for it to secure
+        - Paint on hinges
+        - "Door catches, doesn't close properly"
+      completed:
+        - Piece of plaster UY OLY(?) on left (large hole)
+        - Small patched up hole top left on wall
+        - Edging strip coming away near handle
+    -
+      area: Lounge
+      todo:
+        - Underfloor heating is weak and pump is loud - connected incorrectly?
+        - Dents in wood floor panels
+      completed:
+        - Paint patch above light switch on bifold wall. Bifolds - runners dirty - plastic on doors inside brush coming out. Trim coming off 2nd door from right.
+        - Ceiling and wall chips
+        - Door is hung so that it swings
+    -
+      area: Lounge Cupboard
+      todo:
+        - Paint on handle
+        - Door catching on frame
+      completed:
+        - Bare wires hanging in manifold cupboard
+    -
+      area: Kitchen
+      todo:
+        - No edges on tiles
+        - Entrance door snags - pencil marks
+        - Gaps behind sockets on right
+        - Left sockets loose and move
+        - Gap in flooring under drawer(?) pack
+        - Top units don't stay open
+        - Unit under hob - large holes at the back
+        - Drawers constructed badly
+        - Dents in wood floor panels
+        - "Door under sink hinge damaged, door loose"
+      completed:
+        - Architrave rough
+        - Paint on sockets on left - wording scratched
+        - Extra unit - gaps in groly(?)
+        - Extra unit - doors need adjusting
+        - Extra unit - no shelf
+        - No front(?) to washer
+        - Paint spots on tall units
+        - Edging strip next to fridge door
+        - Unit under hob - shelf not fitted
+        - Worktops dirty
+        - Freezer door damaged top left corner - door not positioned correctly
+        - Waste pipe leaking behind cupboards
+        - Kitchen door catching on frame
+        - Dishwasher door panel catching against frame
+        - Sink seal around the plug is partially peeled off
+    -
+      area: Stairs
+      todo: 
+        - Recently fitted bannister baton is not painted (told they would return and paint it after it was fitted)
+    -
+      area: First Floor Hallway
+      completed:
+        - Smoke alarm not mains connected
+    -
+      area: Bed 1 (Rear)
+      todo:
+        - Right window - handle scratched
+      completed:
+        - Right window - trickle vent missing doesn't match
+        - Left window - beading damaged
+        - Right window - glue on beading
+        - Right window - catches on frame when closing
+    -
+      area: Bathroom
+      completed:
+        - Holes in floor - radiator pipe
+        - Toilet doesn't flush - not connected
+        - Lock latch does not lock
+    -
+      area: Bed 2 (Front)
+      todo:
+        - Left window does not seal to frame
+      completed:
+        - No window key
+        - Light switch works the wrong way
+        - Carpet need fitting properly
+    -
+      area: Bed 3 Balcony
+      todo:
+        - Water escapes poor (does not drain, water stays on tiles)
+        - Titles lifted near escapes
+        - Runners dirty
+        - Guttering appears to be damaged and leaking in the middle when it rains
+      completed:
+        - Beading lifted on left door
+        - Beading damaged
+        - Left door damaged outside right vertical
+        - Paint on handle
+        - Missing key
+    -
+      area: Bed 3
+      todo:
+        - Radiator does not work (blocked? air-locked?)
+      completed:
+        - Entrance door snags
+        - Stickers on velux window
+        - Door catching on frame
+    -
+      area: Bed 3 Cupboard
+      todo:
+        - Hole in wall
+    -
+      area: Bed 3 En-suite
+      todo:
+        - Paint on floor
+      completed:
+        - Stickers on velux window
+        - Loft hatch door not flush
+        - Loft lots of rubbish
+        - Bath leaking when using shower
+        - Bath cover loose and not sealed
+    -
+      area: Second Floor Hallway
+      todo:
+        - No varnish on the handrail + newels
+      completed:
+        - Filler needed handrail + newels
+        - Stickers on velux window
+        - Cupboard on top floor. Random light fitted?
+        - Paint on handles
+        - Brown stains on carpet - 1st set of stairs
+        - Smoke alarm not mains connected
+        - Storage cupboard atop stairs has drastic cracking and shifted ceiling join with wall
+        - Sky light left hand side has drastic sunken ceiling to wall join
+-
   author: Kathleen, Property Manager Area 1, Student Living
   to: David Wood
   date: 2015-10-06 11:14
