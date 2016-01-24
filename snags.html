@@ -9,7 +9,7 @@ date: 2015-10-11 17:00
 <!-- {% increment snagsCounter %} -->
 {% for area in site.data.snags_remaining %}
   <section class="area">
-    <h3>{{ area.area }}</h3>
+    <h4>{{ area.area }}</h4>
     <ol>
 {% for todo in area.todo %}
       <li value="{% increment snagsCounter %}">{{ todo }}</li>

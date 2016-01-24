@@ -4,7 +4,6 @@ date: 2015-10-22 18:53
 category: [Blog]
 tags: [hacking, events]
 published: true
-pinned: true
 ---
 
 ![Hack Manchester Logo]({{ "/img/hack-manchester-logo.png" | prepend: site.baseurl }}){:class="pure-img"}
