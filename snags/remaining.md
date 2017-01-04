@@ -2,6 +2,7 @@
 
 ## Outside Front
 - Water meter on street is flooded, freeze risk
+- Moss growing down right side of house from balcony escapes
 
 ## Outside Back
 - Light switch works the wrong way
