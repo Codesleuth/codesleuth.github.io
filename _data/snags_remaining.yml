@@ -6,73 +6,70 @@
   area: Outside Back
   todo: 
     - Light switch works the wrong way
+    - Lights have two switches incorrectly configured as 3-way
 -
   area: Entrance / Hallway
   todo: 
-    - Front door snags on threshold - rubber damaged
-    - Underfloor heating is very weak
--
-  area: W/C
-  todo:
-    - Paint on floor - splashes
+    - Front door snags on threshold - runner damaged
+    - Underfloor heating does not work
 -
   area: Entrance Cupboard
   todo:
-    - Catch a mess 4 no hole in frame for it to settle
+    - Catch a mess, hole in frame damaged
     - Paint on hinges
     - "Door catches, doesn't close properly"
 -
   area: Kitchen
   todo:
-    - No edges on tiles
-    - Entrance door snags - pencil marks
-    - Gaps behind sockets on right
-    - Left sockets loose and move
-    - Gap in flooring under drawer pack
-    - Top units don't stay open
-    - No fonder to washer
-    - Drawers constructed badly
-    - Unit under hob - large holes at the back
+    - No paint on edges of tiles
+    - All sockets in tiles are loose and easily move
+    - Gap in flooring below kitchen sink
+    - Top units don't stay open (incorrect hinge)
+    - Unit under hob - two large holes in back panel
     - Dents in wood floor panels
-    - "Door under sink hinge damaged, door loose"
+    - Door under sink hinge damaged, door loose
+    - Cupboard to right of freezer, large hole in back panel from leak repairs
+    - Cupboard to left of washer, large hole in back panel from leak repairs
 -
   area: Lounge
   todo:
-    - Underfloor heating is weak and pump is loud - pipes seem to be connected incorrectly?
+    - Underfloor heating is weak and pump is loud. Inlet and outlets are connected incorrectly and sludge collected in system
     - Dents in wood floor panels
+    - Floor panel ripples from broken pipe flooding, and knots bulging up where water swelled
 -
   area: Lounge Cupboard
   todo:
-    - Paint on handle
     - Door catching on frame
 -
   area: Stairs
   todo: 
-    - Recently fitted bannister baton is not painted (told they would return and paint it after it was fitted)
+    - Recently fitted banister baton is not painted. We were told they would return and paint it after it was fitted
 -
-  area: Bed 1 (Rear)
+  area: First Floor Bathroom
   todo:
-    - Right window - handle scratched
+    - Towel radiator brackets sagging
+    - Unknown isolator switch - shaver socket not installed?
 -
-  area: Bed 2 (Front)
+  area: First Floor Bed 2 (Front)
   todo:
-    - Left window does not seal to frame
+    - Room is very cold. Ceiling/balcony insulation poor/missing
 -
-  area: Bed 3 Balcony
+  area: Second Floor Bed 3
   todo:
-    - Water escapes door
-    - Titles lifted near escapes
-    - Runners dirty
-    - Guttering appears to be damaged and overflows towards centre
+    - Small radiator working intermittently
 -
-  area: Bed 3 Cupboard
+  area: Second Floor Bed 3 Balcony
   todo:
-    - Hole in wall
+    - Water escapes poor. Does not drain, water pools and stays on tiles
+    - Tiles covered with algae and moss due to standing water
+    - Titles lifted near escapes on sides
+    - Door runners dirty
+    - Guttering sags in middle and overflows onto balcony
 -
-  area: Bed 3 En-suite
+  area: Second Floor Bed 3 Cupboard
   todo:
-    - Paint on floor
+    - Large hole in wall for TV aerials causes drafts and wind whistling
 -
-  area: Second Floor Hallway
-  todo:
-    - No varnish on the handrail + newels
+  area: Second Floor Bed 3 En-suite
+  todo: 
+    - Unknown isolator switch - shaver socket not installed?
