@@ -20,7 +20,7 @@ stackoverflow_username: codesleuth
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 excerpt_separator: <!--more-->
 
 # Defaults
