@@ -1,13 +1,11 @@
 source 'https://rubygems.org'
 
-require 'json'
-require 'open-uri'
-versions = JSON.parse(open('https://pages.github.com/versions.json').read)
-
-gem 'jekyll', versions['jekyll']
-gem 'github-pages', versions['github-pages']
-gem 'jekyll-redirect-from', versions['jekyll-redirect-from']
-gem 'kramdown', versions['kramdown']
-gem 'wdm', '~> 0.1.0' if Gem.win_platform?
-gem 'jekyll-sitemap', versions['jekyll-sitemap']
-gem 'jekyll-feed', versions['jekyll-feed']
+group :jekyll_plugins do
+  gem 'jekyll', '3.3.1'
+  gem 'github-pages', '112'
+  gem 'jekyll-redirect-from', '0.11.0'
+  gem 'kramdown', '	1.11.1'
+  gem 'jekyll-sitemap', '0.12.0'
+  gem 'jekyll-feed', 	'0.8.0'
+  gem 'jekyll-paginate', '1.1.0'
+end

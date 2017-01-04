@@ -3,7 +3,6 @@ layout: snags
 title: Snag Lists
 date: 2015-10-11 17:00
 ---
-
 <h2>Remaining Snags</h2>
 <section>
 <!-- {% increment snagsCounter %} -->
@@ -20,7 +19,7 @@ date: 2015-10-11 17:00
 </section>
 
 <h2>Lists</h2>
-{% for list in site.data.snags sort_by:date order:descending %}
+{% for list in site.data.snags sort:date order:descending %}
 {% assign slug = list.date | slugify | prepend: "list-"  %}
 <section>
   <h3><a name="{{ slug }}" href="#{{ slug }}">#</a> List: {{ list.date | date: '%B %d, %Y %r' }}</h3>
