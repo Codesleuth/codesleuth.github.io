@@ -4,9 +4,8 @@
 - Water meter on street is flooded, freeze risk
 - Moss growing down right side of house from balcony escapes
 
-## Outside Back
-- Light switch works the wrong way
-- Lights have two switches incorrectly configured as 3-way
+## Outside Rear
+- Fascia fallen off from gutter/roof panel
 
 ## Entrance / Hallway
 - Front door snags on threshold - runner damaged
@@ -32,6 +31,7 @@
 - Underfloor heating is weak and pump is loud. Inlet and outlets are connected incorrectly and sludge collected in system
 - Dents in wood floor panels
 - Floor panel ripples from broken pipe flooding, and knots bulging up where water swelled
+- Light switch for lounge works the wrong way, and does not correctly operate as a 2-way lighting circuit
 
 ## Lounge Cupboard
 - Door catching on frame
@@ -61,3 +61,6 @@
 
 ## Second Floor Bed 3 En-suite
 - Unknown isolator switch - shaver socket not installed?
+
+## Attic
+- Extractor pipe disconnected from flue in roof
