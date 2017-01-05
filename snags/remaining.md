@@ -9,7 +9,7 @@
 
 ## Entrance / Hallway
 - Front door snags on threshold - runner damaged
-- Underfloor heating does not work
+- <span style="background-color: yellow">Underfloor heating does not work</span>
 
 ## Entrance Cupboard
 - Catch a mess, hole in frame damaged
@@ -28,7 +28,7 @@
 - Unit to left of washer, large hole in back panel from leak repairs
 
 ## Lounge
-- Underfloor heating is weak and pump is loud. Inlet and outlets are connected incorrectly and sludge collected in system
+- <span style="background-color: yellow">Underfloor heating is weak and pump is loud. Inlet and outlets are connected incorrectly and sludge collected in system</span>
 - Dents in wood floor panels
 - Floor panel ripples from broken pipe flooding, and knots bulging up where water swelled
 - Light switch for lounge works the wrong way, and does not correctly operate as a 2-way lighting circuit
@@ -44,17 +44,17 @@
 - Unknown isolator switch - shaver socket not installed?
 
 ## First Floor Bed 2 (Front)
-- Room is very cold. Ceiling/balcony insulation poor/missing
+- <span style="background-color: yellow">Room is very cold. Ceiling/balcony insulation poor/missing</span>
 
 ## Second Floor Bed 3
 - Small radiator working intermittently
 
 ## Second Floor Bed 3 Balcony
-- Water escapes poor. Does not drain, water pools and stays on tiles
-- Tiles covered with algae and moss due to standing water
+- <span style="background-color: yellow">Water escapes poor. Does not drain, water pools and stays on tiles</span>
+- <span style="background-color: yellow">Tiles covered with algae and moss due to standing water</span>
 - Titles lifted near escapes on sides
 - Door runners dirty
-- Guttering sags in middle and overflows onto balcony
+- <span style="background-color: yellow">Guttering sags in middle and overflows onto balcony</span>
 
 ## Second Floor Bed 3 Cupboard
 - Large hole in wall for TV aerials causes drafts and wind whistling
@@ -63,4 +63,4 @@
 - Unknown isolator switch - shaver socket not installed?
 
 ## Attic
-- Extractor pipe disconnected from flue in roof
+- <span style="background-color: yellow">Extractor pipe disconnected from flue in roof</span>
