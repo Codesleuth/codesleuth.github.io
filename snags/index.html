@@ -3,21 +3,6 @@ layout: snags
 title: Snag Lists
 date: 2015-10-11 17:00
 ---
-<h2>Remaining Snags</h2>
-<section>
-<!-- {% increment snagsCounter %} -->
-{% for area in site.data.snags_remaining %}
-  <section class="area">
-    <h4>{{ area.area }}</h4>
-    <ol>
-{% for todo in area.todo %}
-      <li value="{% increment snagsCounter %}">{{ todo }}</li>
-{% endfor %}
-    </ol>
-  </section>
-{% endfor %}
-</section>
-
 <h2>Lists</h2>
 {% for list in site.data.snags sort:date order:descending %}
 {% assign slug = list.date | slugify | prepend: "list-"  %}
